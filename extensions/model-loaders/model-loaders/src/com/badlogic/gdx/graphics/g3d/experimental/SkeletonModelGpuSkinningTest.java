@@ -176,7 +176,7 @@ public class SkeletonModelGpuSkinningTest implements ApplicationListener {
 
 		protoRenderer = new PrototypeRendererGL20(lightManager);
 		protoRenderer.cam = cam;
-
+			
 		MaterialAttribute c1 = new ColorAttribute(new Color(0.75f, 0.75f, 0.75f, 0.3f), ColorAttribute.diffuse);
 		MaterialAttribute c2 = new ColorAttribute(new Color(0.35f, 0.35f, 0.35f, 0.35f), ColorAttribute.specular);
 		MaterialAttribute c3 = new ColorAttribute(new Color(0.2f, 1f, 0.15f, 1.0f), ColorAttribute.rim);

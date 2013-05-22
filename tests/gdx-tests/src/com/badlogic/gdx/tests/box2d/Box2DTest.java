@@ -133,7 +133,6 @@ public abstract class Box2DTest implements ApplicationListener, InputProcessor {
 	public void dispose () {
 		renderer.dispose();
 		world.dispose();
-
 		renderer = null;
 		world = null;
 		mouseJoint = null;
